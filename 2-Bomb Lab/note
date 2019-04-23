@@ -1,6 +1,6 @@
 将汇编代码分为求值和寄存来阅读、同时手动维护栈会有很大帮助(因为调试器很容易看到代码段但看数据段麻烦些)
 
-常用gdb指令
+<常用gdb指令>
 --------
 info x
 help x
@@ -17,8 +17,7 @@ p 打印
 finish 跳出当前函数
 
 
-注意
--------
+<值得注意的细节>
 P调用Q，在P内完成传参
 
 rsp是向0的
@@ -30,8 +29,7 @@ cmp src des	cmp 3 1
 jcc addr	2 add
 等价于if((1)2(3)) jump to adds
 
-答案
---------
+<答案>
 Border relations with Canada have never been better.
 1 2 4 8 16 32
 0 207
